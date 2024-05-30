@@ -83,23 +83,6 @@
       "[php]": {
         "editor.defaultFormatter": "valeryanm.vscode-phpsab"
       },
-      "[css]": {
-        "editor.defaultFormatter": "stylelint.vscode-stylelint",
-        "editor.codeActionsOnSave": {
-          "source.fixAll.stylelint": "explicit"
-        }
-      },
-      "[scss]": {
-        "editor.defaultFormatter": "stylelint.vscode-stylelint",
-        "editor.codeActionsOnSave": {
-          "source.fixAll.stylelint": "explicit"
-        }
-      },
-      "stylelint.validate": [
-        "css",
-        "scss"
-      ],
-      "headwind.runOnSave": true,
       "intelephense.environment.phpVersion": "8.2",
       "phpsab.allowedAutoRulesets": [
         ".phpcs.xml",
@@ -108,8 +91,7 @@
         "phpcs.xml.dist",
         "phpcs.ruleset.xml",
         "ruleset.xml"
-      ],
-      "typescript.tsdk": "node_modules/typescript/lib"
+      ]
     }
   },
   "extensionPack": [
