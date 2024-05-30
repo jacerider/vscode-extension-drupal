@@ -1,0 +1,129 @@
+{
+  "name": "drupal-pack",
+  "displayName": "Drupal Extension Pack",
+  "description": "Visual Studio Code extensions for developing Drupal based projects.",
+  "version": "1.0.0",
+  "publisher": "jacerider",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "qna": "https://github.com/jacerider/vscode-drupal/issues",
+  "bugs": {
+    "url": "https://github.com/jacerider/vscode-drupal/issues"
+  },
+  "repository": {
+    "url": "https://github.com/jacerider/vscode-drupal"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Extension Packs"
+  ],
+  "contributes": {
+    "configurationDefaults": {
+      "breadcrumbs.enabled": true,
+      "css.validate": false,
+      "less.validate": false,
+      "scss.validate": false,
+      "diffEditor.ignoreTrimWhitespace": false,
+      "editor.tabSize": 2,
+      "editor.autoIndent": "full",
+      "editor.insertSpaces": true,
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": false,
+      "editor.renderWhitespace": "boundary",
+      "editor.wordWrapColumn": 80,
+      "editor.wordWrap": "off",
+      "editor.detectIndentation": true,
+      "editor.rulers": [
+        80
+      ],
+      "files.associations": {
+        "*.inc": "php",
+        "*.module": "php",
+        "*.install": "php",
+        "*.theme": "php",
+        "*.profile": "php",
+        "*.tpl.php": "php",
+        "*.test": "php",
+        "*.php": "php",
+        "*.info": "ini",
+        "*.html": "twig",
+        "*.css": "tailwindcss"
+      },
+      "emmet.includeLanguages": {
+        "twig": "html"
+      },
+      "files.trimTrailingWhitespace": true,
+      "files.restoreUndoStack": false,
+      "files.insertFinalNewline": true,
+      "html.format.enable": true,
+      "html.format.wrapLineLength": 80,
+      "intelephense.environment.includePaths": [
+        "core/",
+        "core/includes",
+        "../vendor/"
+      ],
+      "php.validate.enable": true,
+      "php.validate.run": "onType",
+      "php-docblocker.gap": true,
+      "php-docblocker.useShortNames": true,
+      "emptyIndent.removeIndent": true,
+      "emptyIndent.highlightIndent": false,
+      "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
+      "phpsab.snifferEnable": true,
+      "phpsab.standard": "Drupal,DrupalPractice",
+      "phpsab.snifferArguments": [
+        "--extensions=inc,theme,install,module,profile,php,phtml"
+      ],
+      "phpsab.fixerEnable": true,
+      "phpsab.fixerArguments": [
+        "--extensions=inc,theme,install,module,profile,php,phtml"
+      ],
+      "[php]": {
+        "editor.defaultFormatter": "valeryanm.vscode-phpsab"
+      },
+      "[css]": {
+        "editor.defaultFormatter": "stylelint.vscode-stylelint",
+        "editor.codeActionsOnSave": {
+          "source.fixAll.stylelint": "explicit"
+        }
+      },
+      "[scss]": {
+        "editor.defaultFormatter": "stylelint.vscode-stylelint",
+        "editor.codeActionsOnSave": {
+          "source.fixAll.stylelint": "explicit"
+        }
+      },
+      "stylelint.validate": [
+        "css",
+        "scss"
+      ],
+      "headwind.runOnSave": true,
+      "intelephense.environment.phpVersion": "8.2",
+      "phpsab.allowedAutoRulesets": [
+        ".phpcs.xml",
+        ".phpcs.xml.dist",
+        "phpcs.xml",
+        "phpcs.xml.dist",
+        "phpcs.ruleset.xml",
+        "ruleset.xml"
+      ],
+      "typescript.tsdk": "node_modules/typescript/lib"
+    }
+  },
+  "extensionPack": [
+    "dmitrydorofeev.empty-indent",
+    "rintoj.blank-line-organizer",
+    "neilbrayfield.php-docblocker",
+    "bmewburn.vscode-intelephense-client",
+    "valeryanm.vscode-phpsab",
+    "sanderronde.phpstan-vscode",
+    "mrmlnc.vscode-scss",
+    "mblode.twig-language-2",
+    "streetsidesoftware.code-spell-checker",
+    "andrewdavidblum.drupal-smart-snippets",
+    "MehediDracula.php-namespace-resolver",
+    "redhat.vscode-yaml"
+  ]
+}
