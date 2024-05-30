@@ -1,9 +1,9 @@
 {
-  "name": "jacerider/vscode-drupal",
+  "name": "jacerider/vscode-extension-drupal",
   "description": "Visual Studio Code extensions for developing Drupal based projects.",
   "type": "vscode-extension",
   "license": "proprietary",
-  "homepage": "https://github.com/jacerider/vscode-drupal",
+  "homepage": "https://github.com/jacerider/vscode-extension-drupal",
   "authors": [
     {
       "name": "Cyle Carlson (JaceRider)",
@@ -12,8 +12,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/jacerider/vscode-drupal/issues",
-    "source": "https://github.com/jacerider/vscode-drupal"
+    "issues": "https://github.com/jacerider/vscode-extension-drupal/issues",
+    "source": "https://github.com/jacerider/vscode-extension-drupal"
   },
   "minimum-stability": "dev",
   "require": {

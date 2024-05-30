@@ -1,5 +1,5 @@
 {
-  "name": "drupal-pack",
+  "name": "vscode-extension-drupal",
   "displayName": "Drupal Extension Pack",
   "description": "Visual Studio Code extensions for developing Drupal based projects.",
   "version": "1.0.0",
@@ -8,12 +8,12 @@
   "engines": {
     "vscode": "^1.77.0"
   },
-  "qna": "https://github.com/jacerider/vscode-drupal/issues",
+  "qna": "https://github.com/jacerider/vscode-extension-drupal/issues",
   "bugs": {
-    "url": "https://github.com/jacerider/vscode-drupal/issues"
+    "url": "https://github.com/jacerider/vscode-extension-drupal/issues"
   },
   "repository": {
-    "url": "https://github.com/jacerider/vscode-drupal"
+    "url": "https://github.com/jacerider/vscode-extension-drupal"
   },
   "icon": "icon.png",
   "categories": [
