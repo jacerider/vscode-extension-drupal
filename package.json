@@ -30,7 +30,7 @@
       "editor.autoIndent": "full",
       "editor.insertSpaces": true,
       "editor.formatOnPaste": true,
-      "editor.formatOnSave": false,
+      "editor.formatOnSave": true,
       "editor.renderWhitespace": "boundary",
       "editor.wordWrapColumn": 80,
       "editor.wordWrap": "off",
@@ -65,7 +65,7 @@
         "../vendor/"
       ],
       "php.validate.enable": true,
-      "php.validate.run": "onType",
+      "php.validate.run": "onSave",
       "php-docblocker.gap": true,
       "php-docblocker.useShortNames": true,
       "emptyIndent.removeIndent": true,
@@ -103,7 +103,6 @@
     "sanderronde.phpstan-vscode",
     "mrmlnc.vscode-scss",
     "mblode.twig-language-2",
-    "streetsidesoftware.code-spell-checker",
     "andrewdavidblum.drupal-smart-snippets",
     "MehediDracula.php-namespace-resolver",
     "redhat.vscode-yaml"
