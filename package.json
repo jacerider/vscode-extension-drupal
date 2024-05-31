@@ -83,7 +83,6 @@
       "[php]": {
         "editor.defaultFormatter": "valeryanm.vscode-phpsab"
       },
-      "intelephense.environment.phpVersion": "8.2",
       "phpsab.allowedAutoRulesets": [
         ".phpcs.xml",
         ".phpcs.xml.dist",
