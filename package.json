@@ -103,7 +103,6 @@
     "mrmlnc.vscode-scss",
     "mblode.twig-language-2",
     "andrewdavidblum.drupal-smart-snippets",
-    "MehediDracula.php-namespace-resolver",
-    "redhat.vscode-yaml"
+    "MehediDracula.php-namespace-resolver"
   ]
 }
