@@ -74,11 +74,13 @@
       "phpsab.snifferEnable": true,
       "phpsab.standard": "Drupal,DrupalPractice",
       "phpsab.snifferArguments": [
-        "--extensions=inc,theme,install,module,profile,php,phtml"
+        "--extensions=inc,theme,install,module,profile,php,phtml",
+        "--ignore=*/node_modules/*,*/tests/*,web/core,web/sites,web/libraries,web/profiles"
       ],
       "phpsab.fixerEnable": true,
       "phpsab.fixerArguments": [
-        "--extensions=inc,theme,install,module,profile,php,phtml"
+        "--extensions=inc,theme,install,module,profile,php,phtml",
+        "--ignore=*/node_modules/*,*/tests/*,web/core,web/sites,web/libraries,web/profiles"
       ],
       "[php]": {
         "editor.defaultFormatter": "valeryanm.vscode-phpsab"
