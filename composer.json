@@ -2,7 +2,7 @@
   "name": "jacerider/vscode-extension-drupal",
   "description": "Visual Studio Code extensions for developing Drupal based projects.",
   "type": "vscode-extension",
-  "license": "proprietary",
+  "license": "MIT",
   "homepage": "https://github.com/jacerider/vscode-extension-drupal",
   "authors": [
     {

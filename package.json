@@ -38,18 +38,49 @@
       "editor.rulers": [
         80
       ],
+      "[git-commit]": {
+        "editor.autoSurround": "quotes",
+        "editor.rulers": [
+          50
+        ]
+      },
+      "[html]": {
+        "editor.rulers": [
+          0
+        ],
+      },
+      "[ignore]": {
+        "editor.rulers": [
+          120
+        ]
+      },
+      "[markdown]": {
+        "files.trimTrailingWhitespace": false,
+        "editor.rulers": [
+          120
+        ],
+      },
+      "[php]": {
+        "editor.rulers": [
+          120
+        ],
+      },
+      "[yaml]": {
+        "editor.rulers": [
+          120
+        ],
+      },
       "files.associations": {
-        "*.inc": "php",
-        "*.module": "php",
-        "*.install": "php",
-        "*.theme": "php",
-        "*.profile": "php",
-        "*.tpl.php": "php",
-        "*.test": "php",
-        "*.php": "php",
-        "*.info": "ini",
-        "*.html": "twig",
         "*.css": "tailwindcss"
+        "*.html": "twig",
+        "*.inc": "php",
+        "*.info": "ini",
+        "*.install": "php",
+        "*.module": "php",
+        "*.php": "php",
+        "*.profile": "php",
+        "*.test": "php",
+        "*.theme": "php"
       },
       "emmet.includeLanguages": {
         "twig": "html"
